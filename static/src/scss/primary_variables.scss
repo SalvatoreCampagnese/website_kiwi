@@ -1,7 +1,25 @@
+// -------------------------------------------------------------------------- //
+// PRESETS
+// -------------------------------------------------------------------------- //
+
+$o-website-values-palettes: (
+  (
+    // Fonts
+    "font": "Satoshi Variable",
+
+    // Colors
+    "color-palettes-name": "kiwi"
+  )
+);
+
+// -------------------------------------------------------------------------- //
+// COLORS
+// -------------------------------------------------------------------------- //
+
 $o-color-palettes: map-merge(
   $o-color-palettes,
   (
-    "airproof": (
+    "kiwi": (
       "o-color-1": #bedb39,
       "o-color-2": #2c3e50,
       "o-color-3": #f2f2f2,
@@ -9,4 +27,27 @@ $o-color-palettes: map-merge(
       "o-color-5": #000000,
     ),
   )
+);
+
+$o-selected-color-palettes-names: append(
+  $o-selected-color-palettes-names,
+  "kiwi"
+);
+
+// -------------------------------------------------------------------------- //
+// FONTS
+// -------------------------------------------------------------------------- //
+
+$o-theme-font-configs: (
+  "Satoshi Variable": (
+    "family": (
+      "Satoshi Variable",
+      sans-serif,
+    ),
+    "properties": (
+      "base": (
+        "font-size-base": 1rem,
+      ),
+    ),
+  ),
 );

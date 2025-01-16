@@ -1,23 +1,108 @@
+/**
+* @license
+*
+* Font Family: Satoshi
+* Designed by: Deni Anggara
+* URL: https://www.fontshare.com/fonts/satoshi
+* © 2025 Indian Type Foundry
+*
+* Satoshi Light 
+* Satoshi LightItalic 
+* Satoshi Regular 
+* Satoshi Italic 
+* Satoshi Medium 
+* Satoshi MediumItalic 
+* Satoshi Bold 
+* Satoshi BoldItalic 
+* Satoshi Black 
+* Satoshi BlackItalic 
+*
+*/
 @font-face {
-  font-family: "Satoshi Variable";
-  src: url("../../fonts/Satoshi-Variable.woff");
-  font-feature-settings: "salt" on, "ss03" on, "liga" off;
+  font-family: "Satoshi";
+  src: url("../../fonts/Satoshi-Light.woff") format("woff");
+  font-weight: 300;
+  font-display: swap;
   font-style: normal;
-  font-weight: 500;
+  font-feature-settings: "salt" on, "ss03" on, "liga" off;
 }
 
 @font-face {
-  font-family: "Satoshi Variable";
-  src: url("../../fonts/Satoshi-Variable.woff");
+  font-family: "Satoshi";
+  src: url("../../fonts/Satoshi-LightItalic.woff") format("woff");
+  font-weight: 300;
+  font-display: swap;
+  font-style: italic;
   font-feature-settings: "salt" on, "ss03" on, "liga" off;
-  font-style: normal;
+}
+
+@font-face {
+  font-family: "Satoshi";
+  src: url("../../fonts/Satoshi-Regular.woff") format("woff");
   font-weight: 400;
+  font-display: swap;
+  font-style: normal;
+  font-feature-settings: "salt" on, "ss03" on, "liga" off;
 }
 
 @font-face {
-  font-family: "Satoshi Variable";
-  src: url("../../fonts/Satoshi-Variable.woff");
+  font-family: "Satoshi";
+  src: url("../../fonts/Satoshi-Italic.woff") format("woff");
+  font-weight: 400;
+  font-display: swap;
+  font-style: italic;
   font-feature-settings: "salt" on, "ss03" on, "liga" off;
+}
+
+@font-face {
+  font-family: "Satoshi";
+  src: url("../../fonts/Satoshi-Medium.woff") format("woff");
+  font-weight: 500;
+  font-display: swap;
   font-style: normal;
+  font-feature-settings: "salt" on, "ss03" on, "liga" off;
+}
+
+@font-face {
+  font-family: "Satoshi";
+  src: url("../../fonts/Satoshi-MediumItalic.woff") format("woff");
+  font-weight: 500;
+  font-display: swap;
+  font-style: italic;
+  font-feature-settings: "salt" on, "ss03" on, "liga" off;
+}
+
+@font-face {
+  font-family: "Satoshi";
+  src: url("../../fonts/Satoshi-Bold.woff") format("woff");
   font-weight: 700;
+  font-display: swap;
+  font-style: normal;
+  font-feature-settings: "salt" on, "ss03" on, "liga" off;
+}
+
+@font-face {
+  font-family: "Satoshi";
+  src: url("../../fonts/Satoshi-BoldItalic.woff") format("woff");
+  font-weight: 700;
+  font-display: swap;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "Satoshi";
+  src: url("../../fonts/Satoshi-Black.woff") format("woff");
+  font-weight: 900;
+  font-display: swap;
+  font-style: normal;
+  font-feature-settings: "salt" on, "ss03" on, "liga" off;
+}
+
+@font-face {
+  font-family: "Satoshi";
+  src: url("../../fonts/Satoshi-BlackItalic.woff") format("woff");
+  font-weight: 900;
+  font-display: swap;
+  font-style: italic;
+  font-feature-settings: "salt" on, "ss03" on, "liga" off;
 }

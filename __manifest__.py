@@ -1,8 +1,8 @@
 {
    'name': 'Kiwi Theme',
    'description': 'Kiwi Trade Platform Theme',
-   'category': 'Theme/Corporate',
-   'version': '15.0.0',
+   'category': 'Theme',
+   'version': '1.0.1',
    'author': 'Nebula S.r.l',
    'license': 'AGPL-3',
    'depends': ['website'],

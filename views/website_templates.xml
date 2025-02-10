@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+   <template id="layout" inherit_id="website.layout" name="Welcome Message">
+      <xpath expr="//div[@id='wrapwrap']/div" position="before">
+         <div>aaa</div>
+      </xpath>
+   </template>
+</odoo>

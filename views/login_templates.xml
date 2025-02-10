@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <template id="custom_login_layout" inherit_id="website.login_layout" name="Custom Login Layout">
+        <xpath expr="//div[hasclass('oe_website_login_container')]" position="attributes">
+            <attribute name="class" add="row align-items-start p-lg-5 h-100" separator=" " />
+        </xpath>
+    </template>
+    <template id="custom_login" inherit_id="web.login" name="Custom Login">
+        <xpath expr="//form[hasclass('oe_login_form')]" position="attributes">
+            <attribute name="class" add="col-md-6 px-12 mb-6" separator=" " />
+        </xpath>
+        <xpath expr="//form[hasclass('oe_login_form')]/div" position="before">
+            <div class="mb-6">
+                <img src="/kiwi_theme/static/src/img/logo.svg" class="logo" />
+                <h1 class="ds-font-display-small mb-6"> Benvenuto su<br />Kiwi Trade! </h1>
+                <p class="ds-font-large-paragraph mb-6">Accedi con il tuo account</p>
+            </div>
+        </xpath>
+        <xpath expr="//form[hasclass('oe_login_form')]" position="after">
+            <div class="col-md-6 px-6 d-none d-md-block  image-container">
+                <img src="/kiwi_theme/static/src/img/login.png" />
+            </div>
+        </xpath>
+        <xpath expr="//form[hasclass('oe_login_form')]" position="before">
+            <div class="col-md-6 px-6 d-block d-md-none image-container">
+                <img src="/kiwi_theme/static/src/img/login.png" />
+            </div>
+        </xpath>
+    </template>
+</odoo>

@@ -1,0 +1,8 @@
+html,
+body {
+  overflow-x: hidden;
+}
+.px-12 {
+  padding-left: ($spacer * 2) !important;
+  padding-right: ($spacer * 2) !important;
+}

@@ -1,0 +1,79 @@
+* {
+  font-family: $base-font-family !important;
+}
+
+// Display styles
+.ds-font-display-large {
+  font-size: 64px;
+  line-height: 110%;
+}
+
+.ds-font-display-small {
+  font-size: 48px;
+  line-height: 120%;
+}
+
+// Title styles
+.ds-font-title-h1 {
+  font-size: 24px;
+  line-height: 140%;
+}
+
+.ds-font-title-h2 {
+  font-size: 24px;
+  line-height: 130%;
+}
+
+.ds-font-title-h3 {
+  font-size: 20px;
+  line-height: 140%;
+}
+
+// Callout
+.ds-font-callout {
+  font-size: 20px;
+  line-height: 140%;
+}
+
+// Body styles
+.ds-font-body-large {
+  font-size: 14px;
+  line-height: 120%;
+}
+
+.ds-font-body-medium {
+  font-size: 14px;
+  line-height: 120%;
+}
+
+.ds-font-body-small {
+  font-size: 14px;
+  line-height: 120%;
+}
+
+// Caption styles
+.ds-font-caption-large {
+  font-size: 13px;
+  line-height: 120%;
+}
+
+.ds-font-caption-small {
+  font-size: 12px;
+  line-height: 130%;
+}
+
+// Paragraph styles
+.ds-font-large-paragraph {
+  font-size: 18px;
+  line-height: 150%;
+}
+
+.ds-font-medium-paragraph {
+  font-size: 16px;
+  line-height: 150%;
+}
+
+.ds-font-small-paragraph {
+  font-size: 14px;
+  line-height: 150%;
+}

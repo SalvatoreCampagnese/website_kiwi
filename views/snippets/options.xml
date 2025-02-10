@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <template id="snippets" inherit_id="website.snippets">
+        <xpath expr="//*[@id='default_snippets']" position="before">
+            <t id="x_theme_snippets">
+                <div id="x_theme_snippets_category" class="o_panel">
+                    <div class="o_panel_header">Theme</div>
+                    <div class="o_panel_body">
+                        <t t-snippet="kiwi_theme.s_kiwi_snippet"
+                            t-thumbnail="/kiwi_theme/static/src/img/wbuilder/s_kiwi_snippet.svg">
+                            <keywords>Kiwi Custom Snippet</keywords>
+                        </t>
+                    </div>
+                </div>
+            </t>
+        </xpath>
+    </template>
+</odoo>

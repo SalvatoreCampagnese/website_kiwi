@@ -1,0 +1,14 @@
+.primary-input {
+  background-color: $light-gray;
+  height: 48px;
+  border-radius: 12px;
+  border: 1px solid $secondary-gray;
+  &:focus {
+    border: 1px solid $color-accent-main;
+    box-shadow: none;
+  }
+  &:disabled {
+    background-color: $color-neutral-light-grey;
+    border: 1px solid $secondary-gray;
+  }
+}

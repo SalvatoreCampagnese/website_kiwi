@@ -6,9 +6,17 @@
                 <div id="x_theme_snippets_category" class="o_panel">
                     <div class="o_panel_header">Theme</div>
                     <div class="o_panel_body">
-                        <t t-snippet="kiwi_theme.s_kiwi_snippet"
+                        <t t-snippet="kiwi_theme.s_kiwi_quickactions"
                             t-thumbnail="/kiwi_theme/static/src/img/wbuilder/s_kiwi_snippet.svg">
                             <keywords>Kiwi Custom Snippet</keywords>
+                        </t>
+                        <t t-snippet="kiwi_theme.s_kiwi_heroslider"
+                            t-thumbnail="/kiwi_theme/static/src/img/wbuilder/s_kiwi_snippet2.svg">
+                            <keywords>Kiwi Hero Slider</keywords>
+                        </t>
+                        <t t-snippet="kiwi_theme.s_kiwi_productslider"
+                            t-thumbnail="/kiwi_theme/static/src/img/wbuilder/s_kiwi_snippet2.svg">
+                            <keywords>Kiwi Product Slider</keywords>
                         </t>
                     </div>
                 </div>

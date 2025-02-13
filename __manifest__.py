@@ -9,7 +9,9 @@
     # templates
     'data': [
         'views/snippets/options.xml',
-        'views/snippets/s_kiwi_snippet.xml',
+        'views/snippets/s_kiwi_quickactions.xml',
+        'views/snippets/s_kiwi_heroslider.xml',
+        'views/snippets/s_kiwi_productslider.xml',
 
         'views/website_templates.xml',
         'views/login_templates.xml',
@@ -17,13 +19,17 @@
     
     'assets': {
       'web.assets_frontend': [
+         'kiwi_theme/static/src/scss/_variables.scss',
          'kiwi_theme/static/src/scss/_bootstrap_override.scss',
-        'kiwi_theme/static/src/scss/_variables.scss',
-         'kiwi_theme/static/src/scss/_fonts.scss',
          'kiwi_theme/static/src/scss/_typography.scss',
-         'kiwi_theme/static/src/scss/_input.scss',
+         'kiwi_theme/static/src/scss/_inputs.scss',
+         'kiwi_theme/static/src/scss/_buttons.scss',
          
          'kiwi_theme/static/src/scss/login/login_override.scss',
+
+         'kiwi_theme/static/src/scss/snippets/s_kiwi_quickactions.scss',
+         'kiwi_theme/static/src/scss/snippets/s_kiwi_heroslider.scss',
+         'kiwi_theme/static/src/scss/snippets/s_kiwi_productslider.scss',
          
          'kiwi_theme/static/src/img/wbuilder/s_kiwi_snippet.svg',
          'kiwi_theme/static/src/img/login.png',

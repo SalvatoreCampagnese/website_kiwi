@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <template id="s_kiwi_heroslider" name="Kiwi Hero Slider">
+        <section class="s_kiwi_heroslider d-flex flex-column" data-name="Carousel">
+            <div t-attf-id="myCarousel{{uniq}}" class="s_carousel s_carousel_default carousel slide"
+                data-bs-interval="10000">
+                <!-- Indicators -->
+                <ol class="carousel-indicators">
+                    <li t-attf-data-bs-target="#myCarousel{{uniq}}" data-bs-slide-to="0"
+                        class="active" />
+                    <li t-attf-data-bs-target="#myCarousel{{uniq}}" data-bs-slide-to="1" />
+                    <li t-attf-data-bs-target="#myCarousel{{uniq}}" data-bs-slide-to="2" />
+                </ol>
+                <div class="carousel-inner">
+                    <!-- #01 -->
+                    <div class="carousel-item active oe_img_bg o_bg_img_center pt152 pb152"
+                        style="background-image: url('/kiwi_theme/static/src/img/heroslider/slide-1.png');"
+                        data-name="Slide">
+                        <div class="container oe_unremovable">
+                            <div class="row">
+                                <div class="carousel-content col-lg-6">
+                                    <div class="chip">Promo valida fino al 14 febbraio</div>
+                                    <h2 class="ds-font-display-large">KIWI Air presto disponibile</h2>
+                                    <p class="ds-font-title-h3">Questo è un testo di esempio creato
+                                        per dimostrare come un semplice segnaposto può essere
+                                        espanso in un paragrafo più lungo e strutturato.</p>
+                                    <p>
+                                        <button href="/contactus"
+                                            class="btn btn-primary btn-secondary">Scopri Kiwi Air</button>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- #02 -->
+                    <div class="carousel-item oe_img_bg o_bg_img_center pt96 pb96"
+                        style="background-image: url('/kiwi_theme/static/src/img/heroslider/slide-1.png');"
+                        data-name="Slide">
+                        <div class="container oe_unremovable">
+                            <div class="row">
+                                <div class="carousel-content col-lg-6">
+                                    <div class="chip">Promo valida fino al 14 febbraio</div>
+                                    <h2 class="ds-font-display-large">KIWI Air presto disponibile</h2>
+                                    <p class="ds-font-title-h3">Questo è un testo di esempio creato
+                                        per dimostrare come un semplice segnaposto può essere
+                                        espanso in un paragrafo più lungo e strutturato.</p>
+                                    <p>
+                                        <button href="/contactus"
+                                            class="btn btn-primary btn-secondary">Scopri Kiwi Air</button>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- #03 -->
+                    <div class="carousel-item oe_img_bg o_bg_img_center pt128 pb128"
+                        style="background-image: url('/kiwi_theme/static/src/img/heroslider/slide-1.png');"
+                        data-name="Slide">
+                        <div class="container oe_unremovable">
+                            <div class="row">
+                                <div class="carousel-content col-lg-6">
+                                    <div class="chip">Promo valida fino al 14 febbraio</div>
+                                    <h2 class="ds-font-display-large">KIWI Air presto disponibile</h2>
+                                    <p class="ds-font-title-h3">Questo è un testo di esempio creato
+                                        per dimostrare come un semplice segnaposto può essere
+                                        espanso in un paragrafo più lungo e strutturato.</p>
+                                    <p>
+                                        <button href="/contactus"
+                                            class="btn btn-primary btn-secondary">Scopri Kiwi Air</button>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="control-container">
+                    <!-- Controls -->
+                    <a class="o_not_editable" contenteditable="false"
+                        t-attf-href="#myCarousel{{uniq}}" data-bs-slide="prev" role="img"
+                        aria-label="Previous" title="Previous">
+                        <img src="/kiwi_theme/static/src/img/heroslider/arrow-left.svg"
+                            alt="Previous"
+                            class="carousel-control-prev-icon" />
+                        <span class="visually-hidden">Previous</span>
+                    </a>
+                    <a class="o_not_editable" contenteditable="false"
+                        t-attf-href="#myCarousel{{uniq}}" data-bs-slide="next" role="img"
+                        aria-label="Next"
+                        title="Next">
+
+                        <img src="/kiwi_theme/static/src/img/heroslider/arrow-right.svg"
+                            alt="Previous"
+                            class="carousel-control-prev-icon" />
+                        <span class="visually-hidden">Next</span>
+                    </a>
+                </div>
+            </div>
+        </section>
+    </template>
+</odoo>

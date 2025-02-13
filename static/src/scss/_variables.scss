@@ -2,3 +2,161 @@ $base-font-family: "Almarai", serif;
 $light-gray: #f7fbff;
 $secondary-gray: #d4d7e3;
 $primary-blue: #162d3a;
+
+$color-accent-darker: #172554;
+$color-accent-extra-light: #dbeafe;
+$color-accent-lighter: #93c5fd;
+$color-accent-main: #3b82f6;
+$color-green-darker: #166534;
+$color-green-lighter: #4ade80;
+$color-green-main: #16a34a;
+$color-neutral-black: #0e101b;
+$color-neutral-dark-grey: #7d89b0;
+$color-neutral-extra-dark-grey: hsl(226, 24%, 25%);
+$color-neutral-extra-light-grey: #eff1f5;
+$color-neutral-light-grey: #dcdfea;
+$color-neutral-white: #fcfcfd;
+$color-orange-darker: #9a3412;
+$color-orange-lighter: #fb923c;
+$color-orange-main: #ea580c;
+$color-red-extra-light: #f87171;
+$color-red-light: #dc2626;
+$color-red-main: #991b1b;
+
+/* number */
+$radius-0: 0rem;
+$radius-2: 0.125rem;
+$radius-4: 0.25rem;
+$radius-8: 0.5rem;
+$radius-12: 0.75rem;
+$radius-16: 1rem;
+$radius-20: 1.25rem;
+$radius-24: 1.5rem;
+$radius-32: 2rem;
+$radius-40: 2.5rem;
+$radius-48: 3rem;
+$radius-56: 3.5rem;
+$radius-64: 4rem;
+$radius-72: 4.5rem;
+$radius-80: 5rem;
+$radius-88: 5.5rem;
+$radius-96: 6rem;
+$radius-104: 6.5rem;
+$radius-112: 7rem;
+$radius-120: 7.5rem;
+$radius-360: 22.5rem;
+$spacing--8: -0.5rem;
+$spacing-0: 0rem;
+$spacing-2: 0rem;
+$spacing-4: 0.25rem;
+$spacing-8: 0.5rem;
+$spacing-12: 0.75rem;
+$spacing-16: 1rem;
+$spacing-20: 1.25rem;
+$spacing-24: 1.5rem;
+$spacing-32: 2rem;
+$spacing-40: 2.5rem;
+$spacing-48: 3rem;
+$spacing-56: 3.5rem;
+$spacing-64: 4rem;
+$spacing-72: 4.5rem;
+$spacing-80: 5rem;
+$spacing-88: 5.5rem;
+$spacing-96: 6rem;
+$spacing-104: 6.5rem;
+$spacing-112: 7rem;
+$spacing-120: 7.5rem;
+$spacing-360: 22.5rem;
+
+/* color */
+$border-black: $color-neutral-black;
+$border-darker: $color-neutral-dark-grey;
+$border-extra-dark: $color-neutral-extra-dark-grey;
+$border-extra-light: #ffffff1a;
+$border-lighter: $color-neutral-light-grey;
+$border-white: $color-neutral-white;
+$surface-accent-darker: $color-accent-darker;
+$surface-black: $color-neutral-black;
+$surface-darker: $color-neutral-dark-grey;
+$surface-extra-dark: $color-neutral-extra-dark-grey;
+$surface-extra-light: $color-neutral-extra-light-grey;
+$surface-lighter: $color-neutral-light-grey;
+$surface-white: $color-neutral-white;
+$surface-accent-extra-light: $color-accent-extra-light;
+$surface-accent-lighter: $color-accent-lighter;
+$surface-accent-main: $color-accent-main;
+$border-accent-darker: $surface-accent-darker;
+$success-lighter: $color-green-lighter;
+$success-main: $color-green-main;
+$border-accent-extra-light: $surface-accent-extra-light;
+$border-accent-main: $surface-accent-main;
+$error-extra-light: $color-red-extra-light;
+$error-lighter: $color-red-light;
+$error-main: $color-red-main;
+$icon-primary: $color-neutral-black;
+$icon-secondary: $color-neutral-extra-dark-grey;
+$icon-tertiary: $color-neutral-dark-grey;
+$icon-error-lighter: $color-red-light;
+$icon-error-main: $color-red-main;
+$icon-inverted-primary: $color-neutral-white;
+$icon-inverted-secondary: $color-neutral-extra-light-grey;
+$icon-inverted-tertiary: $color-neutral-light-grey;
+$info-lighter: $color-accent-lighter;
+$info-main: $color-accent-main;
+
+$text-placeholder: $color-neutral-light-grey;
+$text-primary: $color-neutral-black;
+$text-secondary: $color-neutral-extra-dark-grey;
+$text-tertiary: $color-neutral-dark-grey;
+$text-accent-darker: $color-accent-darker;
+$text-accent-lighter: $color-accent-extra-light;
+$text-accent-main: $color-accent-main;
+$text-error-lighter: $color-red-light;
+$text-error-main: $color-red-main;
+$text-inverted-placeholder: $color-neutral-dark-grey;
+$text-inverted-primary: $color-neutral-white;
+$text-inverted-secondary: $color-neutral-extra-light-grey;
+$text-inverted-tertiary: $color-neutral-light-grey;
+$warning-lighter: $color-orange-lighter;
+$warning-main: $color-orange-main;
+
+/* number */
+$none: $radius-0;
+$xs: $radius-8;
+$sm: $radius-12;
+$md: $radius-16;
+$lg: $radius-20;
+$xl: $radius-24;
+$xxl: $radius-32;
+$full: $radius-360;
+
+/* number */
+$-xs: $spacing--8;
+$none: $spacing-0;
+$xxs: $spacing-4;
+$xs: $spacing-8;
+$sm: $spacing-12;
+$md: $spacing-16;
+$lg: $spacing-24;
+$xl: $spacing-32;
+$xxl: $spacing-40;
+$xxxl: $spacing-56;
+
+/* number */
+$strong: 1.25rem;
+$disabled: 2rem;
+$medium: 3.125rem;
+$soft: 5rem;
+
+/* number */
+$xs: 0.0312rem;
+$sm: 0.0625rem;
+$md: 0.125rem;
+$lg: 0.25rem;
+$xl: 0.5rem;
+
+// /* string */
+// $emphasized: Regular;
+// $font: Geist;
+// $light: Light;
+// $regular: Regular;

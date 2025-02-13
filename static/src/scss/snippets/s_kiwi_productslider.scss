@@ -1,0 +1,95 @@
+.s_kiwi_productslider {
+  .text-container {
+    padding: 24px 260px 0px 260px;
+    max-width: 1320px;
+  }
+  .control-container {
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    gap: 24px;
+
+    right: 16%;
+    top: -5%;
+    a {
+      position: relative !important;
+      background-color: $surface-extra-light;
+      height: 60px;
+      width: 60px;
+      border-radius: $xl;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+  }
+  .card {
+    max-height: 330px;
+    padding: $xxl;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border-radius: 32px;
+
+    background: linear-gradient(
+      180deg,
+      rgba($surface-extra-light, 1) 0%,
+      rgba($surface-lighter, 1) 100%
+    ) !important;
+    overflow: visible;
+    &__body {
+      display: flex;
+      flex-direction: column;
+      gap: 16px;
+      max-width: 50%;
+    }
+    .product-preview {
+      width: 284px;
+      height: 360px;
+      position: absolute;
+      right: 0px;
+      bottom: 0px;
+    }
+    &_button {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 48px;
+      height: 48px;
+      border-radius: $full;
+      background: $surface-accent-darker;
+      border: none;
+      outline: none;
+      img {
+        width: 20px;
+        height: 20px;
+      }
+    }
+  }
+  .chip {
+    background: transparent;
+    border-radius: $full;
+    border: 1px solid $surface-white;
+    color: $surface-white;
+    padding: $sm $lg;
+    width: fit-content;
+  }
+  .carousel-indicators {
+    justify-content: flex-end !important;
+    // li without class active
+    li {
+      height: 4px;
+    }
+    li.active {
+      width: 24px;
+    }
+    li:not(.active) {
+      max-width: 12px !important;
+    }
+  }
+  .carousel-content {
+    h2,
+    p {
+      color: $surface-white;
+    }
+  }
+}

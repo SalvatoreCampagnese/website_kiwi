@@ -1,0 +1,47 @@
+.s_kiwi_heroslider {
+  .control-container {
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    gap: 24px;
+
+    bottom: 25px;
+    left: 16%;
+    a.carousel-control-prev,
+    a.carousel-control-next {
+      position: relative !important;
+    }
+  }
+  .carousel-content {
+    gap: 24px;
+    display: flex;
+    flex-direction: column;
+  }
+  .chip {
+    background: transparent;
+    border-radius: $full;
+    border: 1px solid $surface-white;
+    color: $surface-white;
+    padding: $sm $lg;
+    width: fit-content;
+  }
+  .carousel-indicators {
+    justify-content: flex-end !important;
+    // li without class active
+    li {
+      height: 4px;
+    }
+    li.active {
+      width: 24px;
+    }
+    li:not(.active) {
+      max-width: 12px !important;
+    }
+  }
+  .carousel-content {
+    h2,
+    p {
+      color: $surface-white;
+    }
+  }
+}

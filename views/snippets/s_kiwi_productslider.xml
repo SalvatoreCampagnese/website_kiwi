@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <template id="s_kiwi_productslider" name="Kiwi Product Slider">
+        <section class="s_kiwi_productslider d-flex flex-column" data-name="Carousel">
+            <div class="text-container">
+                <div class="chip">Prducts</div>
+                <h3>Scopri tutti i prodotti Kiwi</h3>
+                <span>Questo è un testo di esempio creato per dimostrare come un semplice segnaposto
+                    può essere espanso in un paragrafo più lungo e strutturato.</span>
+            </div>
+            <div t-attf-id="myCarousel{{uniq}}" class="s_carousel s_carousel_default carousel slide"
+                data-bs-interval="10000">
+                <div class="carousel-inner">
+                    <!-- #01 -->
+                    <div class="carousel-item active oe_img_bg o_bg_img_center pt152 pb152"
+                        data-name="Slide">
+                        <div class="container container-carousel oe_unremovable">
+                            <div class="row">
+                                <div class="carousel-content row">
+                                    <div class="col-lg-6">
+                                        <div class="card">
+                                            <div class="card__body">
+                                                <h3>Nome prodotto</h3>
+                                                <span>Questo è un testo di esempio creato per
+                                                    mostrare un semplice testo disposto su almeno
+                                                    tre righe.</span>
+                                                <button class="card_button">
+                                                    <img
+                                                        src="/kiwi_theme/static/src/img/productslider/arrow-right.svg" />
+                                                </button>
+                                            </div>
+                                            <img
+                                                src="/kiwi_theme/static/src/img/productslider/product.png"
+                                                alt="product" class="product-preview" />
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-6">
+                                        <div class="card">
+                                            <div class="card__body">
+                                                <h3>Nome prodotto</h3>
+                                                <span>Questo è un testo di esempio creato per
+                                                    mostrare un semplice testo disposto su almeno
+                                                    tre righe.</span>
+                                                <button class="card_button">
+                                                    <img
+                                                        src="/kiwi_theme/static/src/img/productslider/arrow-right.svg" />
+                                                </button>
+                                            </div>
+                                            <img
+                                                src="/kiwi_theme/static/src/img/productslider/product.png"
+                                                alt="product" class="product-preview" />
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- #02 -->
+                    <div class="carousel-item oe_img_bg o_bg_img_center pt96 pb96"
+                        data-name="Slide">
+                        <div class="container oe_unremovable">
+                            <div class="row">
+                                <div class="carousel-content row">
+                                    <div class="col-lg-6">
+                                        <div class="card">
+                                            <div class="card__body">
+                                                <h3>Nome prodotto</h3>
+                                                <span>Questo è un testo di esempio creato per
+                                                    mostrare un semplice testo disposto su almeno
+                                                    tre righe.</span>
+                                                <button class="card_button">
+                                                    <img
+                                                        src="/kiwi_theme/static/src/img/productslider/arrow-right.svg" />
+                                                </button>
+                                            </div>
+                                            <img
+                                                src="/kiwi_theme/static/src/img/productslider/product.png"
+                                                alt="product" class="product-preview" />
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-6">
+                                        <div class="card">
+                                            <div class="card__body">
+                                                <h3>Nome prodotto</h3>
+                                                <span>Questo è un testo di esempio creato per
+                                                    mostrare un semplice testo disposto su almeno
+                                                    tre righe.</span>
+                                                <button class="card_button">
+                                                    <img
+                                                        src="/kiwi_theme/static/src/img/productslider/arrow-right.svg" />
+                                                </button>
+                                            </div>
+                                            <img
+                                                src="/kiwi_theme/static/src/img/productslider/product.png"
+                                                alt="product" class="product-preview" />
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- #03 -->
+                    <div class="carousel-item oe_img_bg o_bg_img_center pt128 pb128"
+                        data-name="Slide">
+                        <div class="container oe_unremovable">
+                            <div class="row">
+                                <div class="carousel-content row">
+                                    <div class="col-lg-6">
+                                        <div class="card">
+                                            <div class="card__body">
+                                                <h3>Nome prodotto</h3>
+                                                <span>Questo è un testo di esempio creato per
+                                                    mostrare un semplice testo disposto su almeno
+                                                    tre righe.</span>
+                                                <button class="card_button">
+                                                    <img
+                                                        src="/kiwi_theme/static/src/img/productslider/arrow-right.svg" />
+                                                </button>
+                                            </div>
+                                            <img
+                                                src="/kiwi_theme/static/src/img/productslider/product.png"
+                                                alt="product" class="product-preview" />
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-6">
+                                        <div class="card">
+                                            <div class="card__body">
+                                                <h3>Nome prodotto</h3>
+                                                <span>Questo è un testo di esempio creato per
+                                                    mostrare un semplice testo disposto su almeno
+                                                    tre righe.</span>
+                                                <button class="card_button">
+                                                    <img
+                                                        src="/kiwi_theme/static/src/img/productslider/arrow-right.svg" />
+                                                </button>
+                                            </div>
+                                            <img
+                                                src="/kiwi_theme/static/src/img/productslider/product.png"
+                                                alt="product" class="product-preview" />
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="control-container">
+                    <!-- Controls -->
+                    <a class="o_not_editable" contenteditable="false"
+                        t-attf-href="#myCarousel{{uniq}}" data-bs-slide="prev" role="img"
+                        aria-label="Previous" title="Previous">
+                        <img src="/kiwi_theme/static/src/img/productslider/arrow-left-black.svg"
+                            alt="Previous"
+                            class="carousel-control-prev-icon" />
+                        <span class="visually-hidden">Previous</span>
+                    </a>
+                    <a class="o_not_editable" contenteditable="false"
+                        t-attf-href="#myCarousel{{uniq}}" data-bs-slide="next" role="img"
+                        aria-label="Next"
+                        title="Next">
+
+                        <img src="/kiwi_theme/static/src/img/productslider/arrow-right-black.svg"
+                            alt="Previous"
+                            class="carousel-control-prev-icon" />
+                        <span class="visually-hidden">Next</span>
+                    </a>
+                </div>
+            </div>
+        </section>
+    </template>
+</odoo>

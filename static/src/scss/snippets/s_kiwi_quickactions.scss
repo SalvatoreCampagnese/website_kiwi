@@ -1,0 +1,33 @@
+.s_kiwi_quickactions {
+  gap: $xxl;
+  background: linear-gradient(
+    180deg,
+    var(--Surface-Extra-Light, #eff1f5) 0%,
+    var(--Surface-Lighter, #dcdfea) 100%
+  ) !important;
+  padding: 80px 108px;
+
+  .quick-action-card {
+    background: linear-gradient(
+      90deg,
+      rgba($surface-white, 0.9) 0%,
+      rgba($surface-white, 0.64) 100%
+    ) !important;
+    max-height: 160px;
+    width: 288px;
+    padding: $spacing-8 $spacing-32;
+    border-radius: $radius-16 !important;
+    gap: $md;
+
+    &__icon {
+      height: 60px;
+      width: 60px;
+      border-radius: $full;
+      background-color: $surface-accent-extra-light;
+      img {
+        max-width: 32px;
+        max-height: 32px;
+      }
+    }
+  }
+}

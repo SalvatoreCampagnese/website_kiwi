@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <template id="s_kiwi_quickactions" name="Kiwi Test2 Snippet">
+        <section class="s_kiwi_quickactions d-flex flex-column">
+            <div class="container">
+                <div class="w-50">
+                    <h2 class="ds-font-display-small">Quick actions</h2>
+                    <h2 class="ds-font-body-large">Questo è un testo di esempio creato per
+                        dimostrare
+                        come
+                        un semplice segnaposto può essere espanso in un paragrafo più lungo e
+                        strutturato.</h2>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-3" data-name="Card">
+                        <div class="quick-action-card d-flex flex-column">
+                            <div
+                                class="quick-action-card__icon d-flex justify-content-center align-items-center">
+                                <img src="/kiwi_theme/static/src/img/login.png" class="image" />
+                            </div>
+                            <div class="quick-action-card__content">
+                                <h3 class="ds-font-title-h2">Quick Action</h3>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-3" data-name="Card">
+                        <div class="quick-action-card d-flex flex-column">
+                            <div
+                                class="quick-action-card__icon d-flex justify-content-center align-items-center">
+                                <img src="/kiwi_theme/static/src/img/login.png" class="image" />
+                            </div>
+                            <div class="quick-action-card__content">
+                                <h3 class="ds-font-title-h2">Quick Action</h3>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-3" data-name="Card">
+                        <div class="quick-action-card d-flex flex-column">
+                            <div
+                                class="quick-action-card__icon d-flex justify-content-center align-items-center">
+                                <img src="/kiwi_theme/static/src/img/login.png" class="image" />
+                            </div>
+                            <div class="quick-action-card__content">
+                                <h3 class="ds-font-title-h2">Quick Action</h3>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-3" data-name="Card">
+                        <div class="quick-action-card d-flex flex-column">
+                            <div
+                                class="quick-action-card__icon d-flex justify-content-center align-items-center">
+                                <img src="/kiwi_theme/static/src/img/login.png" class="image" />
+                            </div>
+                            <div class="quick-action-card__content">
+                                <h3 class="ds-font-title-h2">Quick Action</h3>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+    </template>
+</odoo>

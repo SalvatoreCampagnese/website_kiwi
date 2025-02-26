@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <template id="s_kiwi_premiumtiers" name="Premium tiers">
+        <section class="s_kiwi_premiumtiers d-flex flex-column">
+            <div class="info-container">
+                <h3 class="ds-font-display-small">Questo è un titolo</h3>
+                <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sapien, est felis,
+                    sagittis viverra nulla mattis scelerisque. </span>
+            </div>
+            <div class="container">
+                <div class="tiers-container row">
+                    <div class="card col-4" role-name="card">
+                        <div class="white-container">
+                            <div class="header">
+                                <h4 class="ds-font-title-large">Premium </h4>
+                            </div>
+                            <div class="body">
+                                <ul>
+                                    <li>
+                                        <img src="/kiwi_theme/static/src/img/premiumtiers/check.svg"
+                                            width="20" height="20" />
+                                        <span>Accesso a Bundle premium</span>
+                                    </li>
+                                    <li>
+                                        <img src="/kiwi_theme/static/src/img/premiumtiers/check.svg"
+                                            width="20" height="20" />
+                                        <span>Buste brandizzate</span>
+                                    </li>
+                                    <li>
+                                        <img src="/kiwi_theme/static/src/img/premiumtiers/check.svg"
+                                            width="20" height="20" />
+                                        <span>Gadget e accessori</span>
+                                    </li>
+                                </ul>
+                            </div>
+                            <button class="btn-primary">Candidati ora</button>
+                        </div>
+                        <div class="footer">
+                            <span>
+                                <strong>Requisiti per potersi candidare:</strong>
+                            </span>
+                            <ul>
+                                <li>Vendere tutto l'assortimento KIWI</li>
+                                <li>KIWI Corner all'interno
+                                    del punto vendita</li>
+                                <li>Almeno 60 scontrini giornalieri</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </template>
+</odoo>

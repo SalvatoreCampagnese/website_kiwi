@@ -1,0 +1,93 @@
+.s_kiwi_pointsbanner {
+  padding: 100px 0px 0px 0px;
+  .kiwi-coins {
+    width: 604px;
+    height: 604px;
+    z-index: 1;
+    position: absolute;
+    right: 0px;
+    top: 0px;
+  }
+  .container {
+    display: flex;
+    justify-content: center;
+    background: $surface-accent-darker;
+    padding: 80px 108px;
+    position: relative;
+    min-width: 100%;
+    .row {
+      --gutter-x: 14rem !important;
+    }
+    .user-data {
+      display: flex;
+      flex-direction: column;
+      gap: $xxl;
+      .user-info {
+        display: flex;
+        flex-direction: column;
+        gap: 8px;
+        .chip {
+          padding: $sm $xxs;
+          @extend .ds-font-caption-small;
+          color: white;
+          border: 1px solid $border-white;
+          border-radius: 100px;
+          width: fit-content;
+        }
+        span {
+          color: $text-inverted-primary;
+        }
+      }
+      .points-container {
+        display: flex;
+        flex-direction: row;
+        align-items: flex-end;
+        gap: 16px;
+        .point {
+          text-shadow: 0px 0px 8px rgba($surface-white, 0.54),
+            0px 1px 35px #3b7cde;
+          text-shadow: 0px 0px 8px rgba($surface-white, 0.54),
+            0px 1px 35px #3b7cde;
+          font-size: 80px;
+          font-style: normal;
+          font-weight: 300;
+          line-height: 100%; /* 80px */
+        }
+        span {
+          color: $text-inverted-primary;
+        }
+        .kiwi-points {
+          margin-bottom: 6px;
+        }
+      }
+      .progress {
+        height: 4px;
+        background-color: $surface-darker;
+        .bar {
+          background-color: $surface-white;
+        }
+      }
+    }
+    .info-container {
+      padding-right: 108px;
+      .white-container {
+        z-index: 2;
+        position: relative;
+        padding: $xxl;
+        background-color: $surface-white;
+        border-radius: $xxl;
+        box-shadow: 0px 0px 92px 0px rgba(23, 49, 87, 0.1),
+          0px 4px 68px 0px rgba(0, 0, 0, 0.08);
+        .button-container {
+          display: flex;
+          justify-content: center;
+          width: 100%;
+          margin-top: $xxl;
+          button {
+            width: 200px;
+          }
+        }
+      }
+    }
+  }
+}

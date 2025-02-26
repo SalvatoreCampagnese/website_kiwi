@@ -1,0 +1,110 @@
+.s_kiwi_bigcards {
+  gap: 24px;
+  padding: 80px 108px;
+  .text-container {
+    padding: 24px 260px 0px 260px;
+    max-width: 1320px;
+  }
+  .control-container {
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    gap: 24px;
+
+    right: 16%;
+    top: -5%;
+    a {
+      position: relative !important;
+      background-color: $surface-extra-light;
+      height: 60px;
+      width: 60px;
+      border-radius: $xl;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+  }
+  .card {
+    max-height: 400px;
+    padding: $xxl;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border-radius: 32px;
+    height: 400px;
+    .body {
+      justify-content: space-between;
+    }
+    &.big {
+      height: 440px;
+      max-height: 440px;
+      .product-preview {
+        width: 378.667px;
+        height: 480px;
+      }
+    }
+    background: linear-gradient(
+      180deg,
+      rgba($surface-extra-light, 1) 0%,
+      rgba($surface-lighter, 1) 100%
+    ) !important;
+    overflow: visible;
+    &__body {
+      display: flex;
+      flex-direction: column;
+      gap: 16px;
+      max-width: 50%;
+    }
+    .product-preview {
+      height: 218px;
+      width: auto;
+      position: absolute;
+      right: 0px;
+      bottom: 0px;
+    }
+    &_button {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 48px;
+      height: 48px;
+      border-radius: $full;
+      background: $surface-accent-darker;
+      border: none;
+      outline: none;
+      padding: 0px $md;
+      img {
+        width: 20px;
+        height: 20px;
+      }
+    }
+  }
+  .chip {
+    background: transparent;
+    border-radius: $full;
+    border: 1px solid $border-accent-main;
+    color: $border-accent-main;
+    padding: 0px $md;
+    width: fit-content;
+    height: fit-content;
+  }
+  .carousel-indicators {
+    justify-content: flex-end !important;
+    // li without class active
+    li {
+      height: 4px;
+    }
+    li.active {
+      width: 24px;
+    }
+    li:not(.active) {
+      max-width: 12px !important;
+    }
+  }
+  .carousel-content {
+    h2,
+    p {
+      color: $surface-white;
+    }
+  }
+}

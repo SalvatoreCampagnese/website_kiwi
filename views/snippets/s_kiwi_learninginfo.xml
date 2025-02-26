@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <template id="s_kiwi_learninginfo" name="Kiwi Learning info">
+        <section class="s_kiwi_learninginfo d-flex flex-column">
+            <div class="container">
+                <div class="row gx-5">
+                    <div class="col user-data">
+                        <span class="chip">LEARNING</span>
+                        <span class="ds-font-display-small">Guadagna punti
+                            e diventa un esperto Kiwi</span>
+                        <span class="ds-font-body-large">Questo è un testo di esempio creato per
+                            dimostrare come un semplice segnaposto possa essere espanso in un
+                            paragrafo più lungo e strutturato.<br />Spesso, testi segnaposto come
+                            questo vengono utilizzati nel design, nelle bozze di scrittura o nei
+                            prototipi per riempire spazi e illustrare come apparirà il contenuto
+                            nella sua forma finale.</span>
+                        <button class="btn-primary">Scopri tutti i corsi</button>
+                    </div>
+                    <div class="col info-container">
+                        <div class="liquid-container">
+                            <img src="/kiwi_theme/static/src/img/learninginfo/img.png"
+                                alt="Kiwi Learning" class="image-liquid" />
+                            <div class="info-gray-container">
+                                <h4 class="ds-font-title-h1">Quale liquido consigliare al cliente?</h4>
+                                <span class="ds-font-body-large">Questo è un testo di esempio creato
+                                    per mostrare un semplice testo disposto su almeno tre righe.</span>
+                                <ul>
+                                    <li class="ds-font-body-large">Obiettivo 1</li>
+                                    <li class="ds-font-body-large">Obiettivo 2</li>
+                                    <li class="ds-font-body-large">Obiettivo 3</li>
+                                </ul>
+                                <div class="button-container">
+                                    <button class="btn-primary">
+                                        <img
+                                            src="/kiwi_theme/static/src/img/productslider/arrow-right.svg" />
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </template>
+</odoo>

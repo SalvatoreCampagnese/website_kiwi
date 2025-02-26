@@ -8,19 +8,48 @@
                     <div class="o_panel_body">
                         <t t-snippet="kiwi_theme.s_kiwi_quickactions"
                             t-thumbnail="/kiwi_theme/static/src/img/wbuilder/s_kiwi_snippet.svg">
-                            <keywords>Kiwi Custom Snippet</keywords>
+                            <keywords>Custom Snippet</keywords>
                         </t>
                         <t t-snippet="kiwi_theme.s_kiwi_heroslider"
                             t-thumbnail="/kiwi_theme/static/src/img/wbuilder/s_kiwi_snippet2.svg">
-                            <keywords>Kiwi Hero Slider</keywords>
+                            <keywords>Hero Slider</keywords>
                         </t>
                         <t t-snippet="kiwi_theme.s_kiwi_productslider"
                             t-thumbnail="/kiwi_theme/static/src/img/wbuilder/s_kiwi_snippet2.svg">
-                            <keywords>Kiwi Product Slider</keywords>
+                            <keywords>Product Slider</keywords>
+                        </t>
+                        <t t-snippet="kiwi_theme.s_kiwi_pointsbanner"
+                            t-thumbnail="/kiwi_theme/static/src/img/wbuilder/s_kiwi_snippet2.svg">
+                            <keywords>Points Banner</keywords>
+                        </t>
+                        <t t-snippet="kiwi_theme.s_kiwi_learninginfo"
+                            t-thumbnail="/kiwi_theme/static/src/img/wbuilder/s_kiwi_snippet2.svg">
+                            <keywords>Learning info</keywords>
+                        </t>
+                        <t t-snippet="kiwi_theme.s_kiwi_infobox"
+                            t-thumbnail="/kiwi_theme/static/src/img/wbuilder/s_kiwi_snippet2.svg">
+                            <keywords>Info box</keywords>
+                        </t>
+                        <t t-snippet="kiwi_theme.s_kiwi_bigbanner"
+                            t-thumbnail="/kiwi_theme/static/src/img/wbuilder/s_kiwi_snippet2.svg">
+                            <keywords>Big banner</keywords>
+                        </t>
+                        <t t-snippet="kiwi_theme.s_kiwi_twocolumn"
+                            t-thumbnail="/kiwi_theme/static/src/img/wbuilder/s_kiwi_snippet2.svg">
+                            <keywords>Two column</keywords>
+                        </t>
+                        <t t-snippet="kiwi_theme.s_kiwi_premiumtiers"
+                            t-thumbnail="/kiwi_theme/static/src/img/wbuilder/s_kiwi_snippet2.svg">
+                            <keywords>Premium tiers</keywords>
+                        </t>
+                        <t t-snippet="kiwi_theme.s_kiwi_bigcards"
+                            t-thumbnail="/kiwi_theme/static/src/img/wbuilder/s_kiwi_snippet2.svg">
+                            <keywords>Big Cards</keywords>
                         </t>
                     </div>
                 </div>
             </t>
         </xpath>
+
     </template>
 </odoo>

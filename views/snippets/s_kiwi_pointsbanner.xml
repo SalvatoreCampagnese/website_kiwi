@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <template id="s_kiwi_pointsbanner" name="Kiwi Points Banner">
+        <section class="s_kiwi_pointsbanner d-flex flex-column">
+            <img src="/kiwi_theme/static/src/img/pointsbanner/coins.png" alt="Kiwi Coins"
+                class="kiwi-coins" />
+            <div class="container">
+                <div class="row gx-5">
+                    <div class="col user-data">
+                        <div class="user-info">
+                            <span class="chip">KIWI POINTS</span>
+                            <span class="name ds-font-display-small">Nome Cognome</span>
+                        </div>
+                        <div class="points-container">
+                            <!-- Variable based on DB Info -->
+                            <span class="point">138</span>
+                            <span class="kiwi-points">KIWI points</span>
+                        </div>
+                        <div class="progress">
+                            <!-- Variable width based on DB Info -->
+                            <div class="bar" style="width: 50%"></div>
+                        </div>
+                    </div>
+                    <div class="col info-container">
+                        <div class="white-container">
+                            <h3 class="ds-font-title-large">Usa i tuoi punti e ottieni i nostri
+                                espositori</h3>
+                            <span class="ds-font-body-large">Questo è un testo di esempio creato per
+                                dimostrare come un
+                                semplice segnaposto può essere espanso in un paragrafo più lungo e
+                                strutturato.</span>
+                            <div class="button-container">
+                                <button class="btn-primary">Vai allo shop</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </template>
+</odoo>

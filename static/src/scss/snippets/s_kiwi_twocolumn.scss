@@ -1,0 +1,39 @@
+.s_kiwi_twocolumn {
+  padding: 80px 108px;
+  .info-container {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    max-width: 30%;
+    button {
+      margin-top: 16px;
+      width: fit-content;
+      padding: 0px $xl;
+    }
+  }
+  .image-container img {
+    width: 600px;
+    height: 400px;
+    background-color: $color-neutral-extra-light-grey;
+    border-radius: $xxxl;
+  }
+
+  .chip {
+    background: transparent;
+    border-radius: $full;
+    border: 1px solid $border-accent-main;
+    color: $text-accent-main;
+    padding: 0px $lg;
+    width: fit-content;
+  }
+}
+
+@media screen and (orientation: portrait) {
+  .s_kiwi_twocolumn {
+    padding: 30px 60px;
+  }
+  .image-container img {
+    width: 100%;
+    height: 400px;
+  }
+}

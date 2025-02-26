@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <template id="s_kiwi_bigbanner" name="Big banner">
+        <section class="s_kiwi_bigbanner d-flex flex-column">
+            <div class="info-container">
+                <div class="info-text">
+                    <h4 class="ds-font-display-large">Diventa KIWI</h4>
+                    <h4 class="ds-font-display-large light-text">Premium Partner</h4>
+                </div>
+                <span class="ds-font-title-h3">Questo è un testo di esempio creato per dimostrare
+                    come un semplice segnaposto<br /> può essere espanso in un paragrafo più lungo e
+                    strutturato.</span>
+                <button class="btn-primary">Scopri tutti i piani</button>
+            </div>
+        </section>
+    </template>
+</odoo>

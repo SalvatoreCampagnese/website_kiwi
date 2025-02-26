@@ -1,0 +1,25 @@
+.s_kiwi_infobox {
+  padding: 80px 108px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  .info-container {
+    padding: $xxl;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: $xxl;
+    max-width: 800px;
+    .info-text {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      gap: $md;
+    }
+    button {
+      width: 200px;
+    }
+  }
+}

@@ -1,0 +1,66 @@
+.s_kiwi_premiumtiers {
+  padding: 80px 108px;
+  background: linear-gradient(
+    180deg,
+    $color-neutral-extra-light-grey 0%,
+    $color-neutral-light-grey 100%
+  );
+  display: flex;
+  flex-direction: column;
+  gap: $xxl;
+
+  .info-container {
+    max-width: 40%;
+    .container {
+      max-width: none !important;
+    }
+  }
+
+  .tiers-container {
+    display: flex;
+    flex-direction: row;
+    gap: 48px;
+    height: 550px;
+  }
+  .card {
+    background-color: transparent;
+    border: none;
+    flex: 1;
+    .white-container {
+      background-color: white;
+      padding: $xxl;
+      border-radius: 32px;
+      flex: 1;
+      position: relative;
+      flex-direction: column;
+      display: flex;
+      .header {
+        padding-bottom: $md;
+        border-bottom: 1px solid $color-neutral-light-grey;
+      }
+      .body {
+        margin-top: $lg;
+        flex: 1;
+        ul {
+          padding-left: 0px;
+          li {
+            margin-bottom: 8px;
+            list-style: none;
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            gap: 8px;
+          }
+        }
+      }
+      button {
+        margin-top: $lg;
+        width: 100%;
+      }
+    }
+    .footer {
+      margin-top: $md;
+      padding: 0px 40px;
+    }
+  }
+}

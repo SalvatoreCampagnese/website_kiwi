@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <template id="s_kiwi_infobox" name="Kiwi info box">
+        <section class="s_kiwi_infobox d-flex flex-column">
+            <div class="info-container">
+                <div class="info-text">
+                    <h4 class="ds-font-title-large">Hai bisogno di informazioni o di supporto?</h4>
+                    <span class="ds-font-body-large text-center">Questo è un testo di esempio creato
+                        per
+                        dimostrare come un semplice
+                        segnaposto
+                        può essere espanso in un paragrafo più lungo e strutturato.</span>
+                </div>
+                <button class="btn-primary">Vai all’help desk</button>
+            </div>
+        </section>
+    </template>
+</odoo>

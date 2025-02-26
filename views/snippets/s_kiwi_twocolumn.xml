@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <template id="s_kiwi_twocolumn" name="Two column">
+        <section class="s_kiwi_twocolumn d-flex flex-row justify-content-between">
+            <div class="info-container">
+                <div class="chip">GADGET ESCLUSIVI</div>
+                <h3 class="ds-font-display-small">Ottieni l’accesso a
+                    Bundle premium</h3>
+                <span>Questo è un testo di esempio creato per dimostrare come un semplice segnaposto
+                    possa essere espanso in un paragrafo più lungo e strutturato.<br /> Spesso,
+                    testi segnaposto come questo vengono utilizzati nel design, nelle bozze di
+                    scrittura o nei prototipi per riempire spazi e illustrare come apparirà il
+                    contenuto nella sua forma finale.</span>
+                <button class="btn-primary">Scopri tutti i piani</button>
+            </div>
+            <div class="image-container">
+                <img src="/kiwi_theme/static/src/img/twocolumn/media.png" alt="Two column" />
+            </div>
+
+        </section>
+    </template>
+</odoo>

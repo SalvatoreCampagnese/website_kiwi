@@ -1,0 +1,52 @@
+.s_kiwi_learninginfo {
+  padding: 120px 108px;
+  .user-data {
+    display: flex;
+    flex-direction: column;
+    gap: $xs;
+    padding-right: 80px;
+    button {
+      margin-top: $xxl;
+      width: fit-content;
+      padding: 0px $xxl;
+    }
+  }
+  .info-container {
+    .chip {
+      background: transparent;
+      border-radius: $full;
+      border: 1px solid $surface-white;
+      color: $surface-white;
+      padding: 0px $lg;
+      width: fit-content;
+    }
+    .liquid-container {
+      border-radius: 32px;
+      overflow: hidden;
+      width: 500px;
+      img.image-liquid {
+        height: 200px;
+        width: 100%;
+      }
+      .info-gray-container {
+        background-color: $surface-extra-light;
+        padding: $xxl;
+        position: relative;
+      }
+    }
+    .button-container {
+      display: flex;
+      justify-content: flex-end;
+      position: absolute;
+      bottom: 20px;
+      right: 20px;
+      button {
+        width: 48px;
+        height: 48px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+    }
+  }
+}

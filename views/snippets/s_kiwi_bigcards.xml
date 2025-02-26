@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <template id="s_kiwi_bigcards" name="Big Cards">
+        <section class="s_kiwi_bigcards d-flex flex-column justify-content-between">
+            <div class="container container-carousel oe_unremovable">
+                <div class="row">
+                    <div class="carousel-content row">
+                        <div class="col-lg-12">
+                            <div class="card big">
+                                <div class="card__body">
+                                    <h3>Nome prodotto</h3>
+                                    <span class="ds-font-title-h3">Questo è un testo di esempio
+                                        creato per
+                                        mostrare un semplice testo disposto su almeno
+                                        tre righe.</span>
+                                    <div class="d-flex flex-row gap-2 align-items-center">
+                                        <button class="btn-primary">
+                                            Scopri la promozione
+                                        </button>
+                                        <div class="chip">300 Kiwi Point
+                                        </div>
+                                    </div>
+                                </div>
+                                <img
+                                    src="/kiwi_theme/static/src/img/productslider/product.png"
+                                    alt="product" class="product-preview" />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container container-carousel oe_unremovable">
+                <div class="row">
+                    <div class="carousel-content row">
+                        <div class="col-lg-6">
+                            <div class="card">
+                                <div class="card__body">
+                                    <div class="flex flex-column gap-2">
+                                        <h3>Nome prodotto</h3>
+                                        <span class="ds-font-title-h3">Questo è un testo di esempio
+                                            creato per
+                                            mostrare un semplice testo disposto su almeno
+                                            tre righe.</span>
+                                    </div>
+                                    <div class="d-flex flex-row gap-2 align-items-center">
+                                        <button class="card_button">
+                                            <img
+                                                src="/kiwi_theme/static/src/img/productslider/arrow-right.svg" />
+                                        </button>
+                                        <div class="chip">300 Kiwi Point
+                                        </div>
+                                    </div>
+                                </div>
+                                <img
+                                    src="/kiwi_theme/static/src/img/bigcards/img.png"
+                                    alt="product" class="product-preview" />
+                            </div>
+                        </div>
+                        <div class="col-lg-6">
+                            <div class="card">
+                                <div class="card__body">
+                                    <div class="flex flex-column gap-2">
+                                        <h3>Nome prodotto</h3>
+                                        <span class="ds-font-title-h3">Questo è un testo di esempio
+                                            creato per
+                                            mostrare un semplice testo disposto su almeno
+                                            tre righe.</span>
+                                    </div>
+                                    <div class="d-flex flex-row gap-2 align-items-center">
+                                        <button class="card_button">
+                                            <img
+                                                src="/kiwi_theme/static/src/img/productslider/arrow-right.svg" />
+                                        </button>
+                                        <div class="chip">300 Kiwi Point
+                                        </div>
+                                    </div>
+                                </div>
+                                <img
+                                    src="/kiwi_theme/static/src/img/bigcards/img.png"
+                                    alt="product" class="product-preview" />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </template>
+</odoo>

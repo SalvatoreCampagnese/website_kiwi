@@ -2,6 +2,8 @@ button.btn-primary {
   background-color: $surface-accent-darker;
   height: 48px;
   border-radius: 48px;
+  outline: none;
+  border: none;
   &.btn-secondary {
     background-color: $surface-white;
     color: $color-neutral-black;
